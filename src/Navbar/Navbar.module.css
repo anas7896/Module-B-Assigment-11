@@ -1,0 +1,53 @@
+.navbar {
+    margin-top: 10px;
+    margin-left: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbarBrand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbarBrand img {
+    margin-right: 10px;
+    margin-left: 60px;
+  }
+  
+  .navLink {
+    margin-right: 15px;
+    font-size: 18px;
+  }
+  
+  .navLink:hover {
+    color: #006838;
+    font-size: 19px;
+  }
+  
+  .dropdownMenu {
+    opacity: 0;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    visibility: hidden;
+    display: none !important;
+  }
+
+  .dropdown{
+    font-size: 18px;
+  }
+
+  .dropdown:hover{
+    color: #006838;
+    font-size: 19px;
+  }
+  
+  .dropdown:hover .dropdownMenu {
+    opacity: 1;
+    visibility: visible;
+    display: block !important;
+  }
+  
+  .dropdownItem:hover {
+    background-color: #006838;
+    color: white;
+  }
+  
